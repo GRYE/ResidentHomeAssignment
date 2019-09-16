@@ -1,4 +1,7 @@
+package residenthomeassignment.data
+
 import scala.util.Try
+
 case class DataMeasurement(ts: Long, eventType: String, value: Double)
 
 object DataMeasurement {
